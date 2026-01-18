@@ -1,0 +1,17 @@
+! Name: Química y Petróleo Profesional
+! Description: Filtro para información técnica verídica sobre industria petrolera y química
+! Public: True
+
+! Priorizar instituciones técnicas y académicas
+$boost=5,site=spe.org
+$boost=5,site=sciencedirect.com
+$boost=5,site=acs.org
+$boost=5,site=eia.gov
+$boost=4,site=worldoil.com
+$boost=4,site=jpt.spe.org
+$boost=3,site=researchgate.net
+
+! Eliminar sitios de noticias generalistas o blogs sin rigor científico
+$discard,site=wikipedia.org
+$discard,site=noticias.com
+$discard,site=blogspot.com
