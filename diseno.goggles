@@ -1,0 +1,6 @@
+! Name: Diseño RG Galería
+! Description: Prioriza recursos para personalización de ropa y diseño kawaii
+$boost=5,site=vecteezy.com
+$boost=5,site=freepik.com
+$boost=5,site=dafont.com
+$discard,site=amazon.com
